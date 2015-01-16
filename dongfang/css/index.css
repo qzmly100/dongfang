@@ -1,0 +1,46 @@
+#banner{height: 417px; overflow: hidden;}
+.focus-pic{position:relative; width:1200px; height:417px; overflow:hidden;}
+.focus-pic ul li{position:absolute; top:0; left:1200px; width:1200px; height:417px;}
+.focus-pic .pages{width:1200px; height:417px;}
+.focus-pic .btn-banner{position:absolute; bottom:20px; left: 50%; margin-left: -70px; width:140px; height: 10px;}
+.focus-pic .btn-banner b{display:block; float:left; width:33px; height:10px; margin:0 10px 0 0; background:#ccc; overflow:hidden; text-indent:9999px; cursor:pointer;}
+.focus-pic .btn-banner b.down{background: #19a7b4;}
+
+#main{padding:40px 0; overflow: hidden;}
+.main_left{float:left; width:640px; margin:0 0 0 15px;}
+.main_right{float:right; width: 470px;  margin:0 15px 0 0 ; padding-left: 30px; background: url(../images/zhixian.jpg) no-repeat left 60px;}
+
+.i-service,.i-huli,.i-about{width:640px; overflow: hidden; background: url(../images/icon1.jpg) no-repeat 0 0; }
+.i-service{height: 350px;}
+.i-huli{height: 200px;}
+.i-about{width:485px; height: 350px; overflow: hidden; position: relative}
+.title590,.title440{position:relative; width: 100%; height: 55px; margin-bottom: 20px; overflow: hidden; background: url(../images/line590.jpg) no-repeat right bottom;}
+.title440{background: url(../images/line440.jpg) no-repeat right bottom;}
+.title590 h2,.title440 h2{font-size: 20px; font-weight: normal; color: #067bb6; text-indent: 3em; line-height: 50px;}
+
+.i-service ul{width:670px;  margin: 0 0 0 8px;}
+.i-service ul li{float: left; width: 175px; margin-right: 48px;}
+.i-service ul li img{display: block; width:175px; height: 120px; margin-bottom: 5px;}
+.i-service ul li h3{height:28px; line-height: 28px; font-size: 14px; color: #1e7bab; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.i-service ul li p{position:relative; line-height:18px; height:54px; overflow:hidden;}
+.i-service ul li a{display: block; width:54px; height: 22px; margin-top: 10px; background: url(../images/sprite.png) no-repeat 0 -86px; font:normal 12px/22px 'simsun'; color: #fff; text-align: center;}
+
+.i-huli img{display:block; float: left; width: 176px;}
+.i-huli p{margin:0 0 0 200px; text-indent: 2em}
+
+.i-about p{width:245px; text-indent: 2em; margin-bottom: 7px;}
+.i-about .photo-top{position:absolute; right:67px; top:68px; width:90px; height: 35px; background: url(../images/photo.png) no-repeat 0 0; z-index: 5;}
+.i-about .photo-bottom{position:absolute; right:5px; top:80px; width:213px; height: 238px; background: url(../images/photo.png) no-repeat 0 -43px; z-index: 4;}
+.i-about .photo-bottom img{width:178px; height: 184px; margin: 15px 0 0 18px;}
+
+/*index-lunbo*/
+#feature1{position: relative; width:485px; height:180px; margin:12px auto 0; overflow: hidden;}
+#block1 {position: absolute; top:0; left: 28px; z-index: 1; width:429px; height: 180px; overflow: hidden; }
+#feature1 ul{width:1000px;}
+#feature1 ul li{position:relative; float:left;width:126px; height: 176px; overflow: hidden;border:1px solid #00a2cf; margin-right: 22px;}
+#feature1 ul li i,#feature1 ul li span{display:block; position: absolute; bottom:0; left: 0; width: 100%; height: 28px; }
+#feature1 ul li i{z-index:5; line-height: 28px; color: #017ab6; font-size: 14px; text-align:center; font-style: normal; overflow: hidden; white-space: normal; text-overflow: ellipsis; }
+#feature1 ul li span{z-index:4; background: #fff; filter:alpha(opacity=70); -moz-opacity:.7; -khtml-opacity:.7; opacity:.7; }
+#feature1 ul li img{display: block; width: 126px; height: 176px; }
+#feature1 .prev1 {position: absolute; left:0; top:45px; z-index: 2; display:block; width:18px; height:88px; background: url(../images/btn.png) no-repeat 0 0; }
+#feature1 .next1 {position: absolute; right:0; top:45px; z-index: 2; display:block; width:18px; height:88px; background: url(../images/btn.png) no-repeat -22px 0; }
